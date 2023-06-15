@@ -1,0 +1,31 @@
+.accardion {
+    @include flex;
+    &__info{
+        h4 {
+            @include font_1 (1.6rem, 500, 2.4rem);
+        }
+    
+        h3 {
+            @include font_h3;
+        }
+        p{
+            @include pragraph_m;
+            @include font_1;
+            color: $secondary;
+        }
+        button{
+            @include btn;
+        }
+        span{
+            @include font_1 (1.6rem ,500 ,1.9rem);
+        }
+    }  
+}
+.accardion__about{
+    input{
+       display: none; 
+    }
+    label{
+        cursor:pointer;  
+    }  
+}

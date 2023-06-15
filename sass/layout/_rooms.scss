@@ -1,0 +1,16 @@
+.rooms{
+    @include flex(center);
+        flex-direction: column;
+        @include padding;
+    h3{
+        @include font_h3;
+    }
+    p{
+        @include font_1;
+        @include pragraph_m;
+        color: $secondary;
+    }
+    button{
+        @include btn;
+    }
+}

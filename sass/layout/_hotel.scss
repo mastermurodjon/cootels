@@ -1,0 +1,22 @@
+.hotel{
+    @include flex;
+    @include padding;
+    gap: 12.6rem;
+    &__img {
+        width: 40%;
+    }
+    &__info {
+        width:60%;
+        h3{
+            @include font_h3;
+        }
+        p{
+            @include font_1;
+            color:$secondary;
+            @include pragraph_m;
+        }
+        button{
+            @include btn;
+        }
+    }
+}
